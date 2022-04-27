@@ -14,11 +14,12 @@ This tool was used during my First year in University. My initial problem was th
 7) Add the finished animation to a Vector to store
 
 # API
-Loading the Spritesheet with the corresponding JSON file - animManager.loadInResources("Resources/Sprites/Animations/Player/playerSpritesheet.png", "Resources/Sprites/Animations/Player/Spritesheet.json");
+Loading the Spritesheet with the corresponding JSON file -\n
+animManager.loadInResources("Resources/Sprites/Animations/Player/playerSpritesheet.png", "Resources/Sprites/Animations/Player/Spritesheet.json");
 
-Loading each animation inside the JSON into the animation loader, passing in the Animation name and the index used to store the animation - 
-animManager.setupAnimation("idle_knife", 0);
-animManager.setupAnimation("shoot_handgun", 5);
-animManager.setupAnimation("reload_handgun", 6);
-animManager.setupAnimation("shoot_rifle", 9);
+Loading each animation inside the JSON into the animation loader, passing in the Animation name and the index used to store the animation -\n
+animManager.setupAnimation("idle_knife", 0);\n
+animManager.setupAnimation("shoot_handgun", 5)\n;
+animManager.setupAnimation("reload_handgun", 6);\n
+animManager.setupAnimation("shoot_rifle", 9);\n
 animManager.setupAnimation("reload_rifle", 10);
